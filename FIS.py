@@ -16,7 +16,6 @@ def getMembership(degree,member,x):
                 return 1.0
 
 def FIS(get_speed,get_dist):
-
     mf_speed = {'LOW': (0,0,10,20),'MEDIUM':(15,25,35,45),'HIGH':(40,50,60,60)}
     mf_closeness = {'LOW':(1.0,1.5,2.0,2.0) ,'MEDIUM':(0.5,0.75,1.0,1.25),'HIGH':(0,0,0.25,0.75)}
     mfs = [[mf_speed,get_speed],[mf_closeness,get_dist]]
